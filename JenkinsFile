@@ -15,7 +15,7 @@ pipeline{
         }
         stage('Checkout from Git'){
             steps{
-                git branch: 'master', url: 'https://github.com/Aj7Ay/2048-React-CICD.git'
+                git branch: 'master', url: 'https://github.com/bhandariajay006/2048-game-DevSecOps.git'
             }
         }
         stage("Sonarqube Analysis "){
